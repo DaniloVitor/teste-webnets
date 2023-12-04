@@ -10,37 +10,35 @@
   <body>
     <div class="container">
       <header>
-        <section class="header-row-top">
-          <div class="background-row-top">
-            <div class="imagem-titulo">
-              <img class="eOuve-titulo" src="./img/eOuve-titulo.png" />
+        <section class="header_menu_logo">
+          <div class="header_logo">
+            <img class="eOuve-titulo" src="./img/eOuve-titulo.png" />
+          </div>
+
+          <div class="header_menu_button">
+            <p>Produtos:</p>
+            <div>
+              <h2>eOuve</h2>
+              <button id="botao-conteudo-eOuve">
+                SIC, Ouvidoria, Zeladoria, Graficos e Relatorios
+              </button>
             </div>
 
-            <div class="organization-display-flex">
-              <p>Produtos:</p>
-              <div>
-                <h2>eOuve</h2>
-                <button id="botao-conteudo-eOuve">
-                  SIC, Ouvidoria, Zeladoria, Graficos e Relatorios
-                </button>
-              </div>
-
-              <div>
-                <h2>eCrie</h2>
-                <button id="botao-conteudo-eCrie">
-                  Site para Prefeitura, Diário Oficial, PAT, Licitações,
-                  Formulários, Portal da Transparência
-                </button>
-              </div>
+            <div>
+              <h2>eCrie</h2>
+              <button id="botao-conteudo-eCrie">
+                Site para Prefeitura, Diário Oficial, PAT, Licitações,
+                Formulários, Portal da Transparência
+              </button>
             </div>
           </div>
         </section>
 
-        <section class="header-row-center">
-          <div class="background-row-center">
-            <div class="organization-display-flex-column">
-              <div class="Eouve">
-                <div class="tex">
+        <section class="conteudo_menu_button">
+          <div class="cor_de_fundo">
+            <div class="posicao_conteudo_eouve_ecrie">
+              <div class="logotipo_Eouve">
+                <div class="texto_logotipo_Eouve">
                   <img
                     id="imagemeOuve"
                     src="./img/eouve-logo.png"
@@ -53,12 +51,12 @@
                   </p>
                 </div>
                 <div class="absolute mobile_devices-img">
-                  <img class="imgpc" src="./img/eOuve.png" width="500px" />
+                  <img class="imgpc" src="./img/eOuve.png" />
                 </div>
               </div>
             </div>
 
-            <div class="header-row-down">
+            <div class="conteudo_multiplataforma">
               <p class="texto-multiplataforma">
                 <span class="highlight-green">eOuve</span> é uma solução
                 <span class="bold">Multiplataforma</span>
@@ -84,102 +82,99 @@
       </header>
 
       <main>
-        <div class="linha">
-          <div class="main-linha-top">
-            <div class="main-row-top">
-              <h1>Conheça nossa plataforma</h1>
-              <div class="mobile_menu-plataforma">
-                <button id="btnAplicativo">Aplicativo</button>
-                <button id="btnSite">Site</button>
-                <button id="btneOuveAdmin">eOuve Admin</button>
-                <button id="btnSistema">Sistema</button>
-                <button id="btnAutoatendimento">Autoatendimento</button>
-              </div>
+        <div class="cor_margin_topo">
+          <div class="menu_botoes_multiplataforma">
+            <h1>Conheça nossa plataforma</h1>
+            <div class="mobile_menu-plataforma">
+              <button id="btnAplicativo">Aplicativo</button>
+              <button id="btnSite">Site</button>
+              <button id="btneOuveAdmin">eOuve Admin</button>
+              <button id="btnSistema">Sistema</button>
+              <button id="btnAutoatendimento">Autoatendimento</button>
             </div>
           </div>
 
-          <div class="main-linha">
-            <div class="video-center">
-              <div class="main-row-center-video">
-                <iframe
-                  id="video"
-                  width="600px"
-                  height="340"
-                  src="https://www.youtube.com/embed/YXqWveIV09E?si=2Mb_ZB_At4KwsSYA"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-                <img id="imgVideo" src="" alt="" />
-              </div>
+          <div class="video-treinamento">
+            <iframe
+              id="video"
+              width="auto"
+              height="auto"
+              src="https://www.youtube.com/embed/YXqWveIV09E?si=2Mb_ZB_At4KwsSYA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <img id="imgVideo" src="" alt="" />
 
-              <div id="text-right-video" class="text-right-video">
-                <p id="texto1">
-                  Com o Totem, a Prefeitura ou a Câmara estará muito mais
-                  modernizada e informatizada, pois cada vez mais nos dias de
-                  hoje, os canais de autoatendimento são uma realidade em nosso
-                  pais.
-                </p>
-                <p id="texto2">
-                  Uma grande funcionalidade do Totem é a mobilidade. Nosso
-                  equipamento pesa menos de 10 (dez) quilos e, com isso, a
-                  possibilidade de levá-lo em eventos ou em outros locais se faz
-                  possível, bastando, apenas, um ponto de energia e internet,
-                  podendo ser cabeada ou sem fio, para funcionar e obter a
-                  conectividade.
-                </p>
-              </div>
+            <div id="texto_treinamento" class="texto_treinamento">
+              <p id="texto1">
+                Com o Totem, a Prefeitura ou a Câmara estará muito mais
+                modernizada e informatizada, pois cada vez mais nos dias de
+                hoje, os canais de autoatendimento são uma realidade em nosso
+                pais.
+              </p>
+              <p id="texto2">
+                Uma grande funcionalidade do Totem é a mobilidade. Nosso
+                equipamento pesa menos de 10 (dez) quilos e, com isso, a
+                possibilidade de levá-lo em eventos ou em outros locais se faz
+                possível, bastando, apenas, um ponto de energia e internet,
+                podendo ser cabeada ou sem fio, para funcionar e obter a
+                conectividade.
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="main-row-down">
-          <div class="alinhamento">
-            <div class="grafico-pizza">
-              <h1>Veja as principais funcionalidades da plataforma</h1>
-              <img
-                class="imgGrafico"
-                src="./img/eOuve grafico.png"
-                width="500px"
-              />
-            </div>
+        <div class="funcionalidades_plataforma">
+          <div class="grafico">
+            <h1>Veja as principais funcionalidades da plataforma</h1>
+            <img
+              class="imgGrafico"
+              src="./img/eOuve grafico.png"
+              width="500px"
+            />
+          </div>
 
-            <div class="mobile_texto-graficos">
-              <div class="main-row-down-right-text">
-                <h1>Gráficos</h1>
-                <p>
-                  Visualize os dados coletados por sua ouvidoria de forma
-                  interativa e personalizada.
-                </p>
+          <div class="mobile_texto-graficos">
+            <div class="texto-grafico">
+              <h1>Gráficos</h1>
+              <p>
+                Visualize os dados coletados por sua ouvidoria de forma
+                interativa e personalizada.
+              </p>
 
-                <p>
-                  Você pode navegar entre diferentes tipos de gráficos, como
-                  barras, linhas, pizza e outros, e aplicar filtros para
-                  destacar as informações mais relevantes.
-                </p>
+              <p>
+                Você pode navegar entre diferentes tipos de gráficos, como
+                barras, linhas, pizza e outros, e aplicar filtros para destacar
+                as informações mais relevantes.
+              </p>
 
-                <p>
-                  Você também pode imprimir os gráficos diretamente do sistema,
-                  sem precisar salvar ou abrir outro programa. Basta clicar no
-                  botão de impressão e escolher as opções de layout, margem,
-                  orientação e qualidade.
-                </p>
+              <p>
+                Você também pode imprimir os gráficos diretamente do sistema,
+                sem precisar salvar ou abrir outro programa. Basta clicar no
+                botão de impressão e escolher as opções de layout, margem,
+                orientação e qualidade.
+              </p>
 
-                <p>
-                  A funcionalidade Gráficos do eOuve é uma ferramenta poderosa
-                  para analisar os dados da sua ouvidoria e potencializar a sua
-                  gestão.
-                </p>
-              </div>
+              <p>
+                A funcionalidade Gráficos do eOuve é uma ferramenta poderosa
+                para analisar os dados da sua ouvidoria e potencializar a sua
+                gestão.
+              </p>
             </div>
           </div>
         </div>
       </main>
 
       <footer>
-        <div class="footer-row-top">
-          <img src="./img/eOuve-mapa.png" width="500px" class="mapa" />
+        <div class="entidades_Eouve">
+          <img
+            class="eOuveMapa"
+            src="./img/eOuve-mapa.png"
+            width="500px"
+            class="mapa"
+          />
           <div class="bandeira">
             <h1>
               Cidades em <span class="highlight-green">São Paulo</span> que
@@ -253,8 +248,8 @@
         </div>
       </footer>
 
-      <div class="footer-row-down">
-        <div class="info">
+      <div class="informacoes_contatos_empresa">
+        <div class="posicionamento">
           <div class="informacoes-empressa">
             <div>
               <h2 class="razao">Razão Social:</h2>
@@ -302,6 +297,6 @@
         <button onclick="">Termos de Uso</button>
       </div>
     </div>
-    <script src="./img/script/index.js"></script>
+    <script src="./script/index.js"></script>
   </body>
 </html>

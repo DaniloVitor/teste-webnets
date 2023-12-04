@@ -22,7 +22,7 @@ btnConteudoeOuve.addEventListener("click", function (event) {
   conteudoeOuve.innerText =
     "Um sistema de ouvidoria desenvolvido para que os administradores publicos possam gerenciar todas as demandas da sua cidade de forma simples, rápida e de qualquer lugar.";
 
-  imgeOuve.setAttribute("src", "./eouve-logo.png");
+  imgeOuve.setAttribute("src", "./img/eouve-logo.png");
   btnConteudoeOuve.style.borderBottom = "#00823C 1px solid";
   btnConteudoeCrie.style.borderBottom = "#f9f9f9 1px solid";
 });
@@ -33,7 +33,7 @@ btnConteudoeCrie.addEventListener("click", function (event) {
   conteudoeOuve.innerText =
     "Tenha um site informativo para a população encontrar facilmente as notícias, eventos, contratos, leis, decretos, licitações e edições do diário oficial. Publique vagas no Portal do Emprego e disponibilize uma página personalizada do Turismo para os visitante, tudo isso sempre respeitando os itens obrigatórios de acessibilidade.";
 
-  imgeCrie.setAttribute("src", "./ecrie-logo.png");
+  imgeCrie.setAttribute("src", "./img/ecrie-logo.png");
   btnConteudoeCrie.style.borderBottom = "#00823C 1px solid";
   btnConteudoeOuve.style.borderBottom = "#f9f9f9 1px solid";
 });
@@ -64,8 +64,8 @@ btnAplicativo.addEventListener("click", function (event) {
 btnSite.addEventListener("click", function (event) {
   video.style.display = "none";
   imgVideo.style.display = "block";
-  imgVideo.setAttribute("src", "./prefeitura-de-taquaritinga.png");
-  imgVideo.style.width = "500px";
+  imgVideo.setAttribute("src", "./img/prefeitura-de-taquaritinga.png");
+  imgVideo.style.width = "400px";
   imgVideo.style.height = "300px";
 
   texto1.innerText =
@@ -105,7 +105,7 @@ btneOuveAdmin.addEventListener("click", function (event) {
 btnSistema.addEventListener("click", function (event) {
   video.style.display = "none";
   imgVideo.style.display = "block";
-  imgVideo.setAttribute("src", "./integracoes-demo.png");
+  imgVideo.setAttribute("src", "./img/integracoes-demo.png");
   imgVideo.style.width = "500px";
   imgVideo.style.height = "300px";
 

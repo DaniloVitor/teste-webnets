@@ -11,7 +11,7 @@
   height: auto;
 }
 
-.background-row-top {
+.header_section_background {
   width: auto;
   height: 100%;
   margin: auto;
@@ -23,7 +23,7 @@ header {
   margin: auto 0px 150px 0px;
 }
 
-.header-row-top {
+.header_menu_logo {
   height: 100%;
   width: auto;
   padding-top: 15px;
@@ -32,7 +32,7 @@ header {
   background-color: #ffffff;
 }
 
-.header-row-top .imagem-titulo {
+.header_menu_logo .header_logo {
   display: flex;
   margin: auto;
   justify-content: center;
@@ -45,7 +45,7 @@ header {
   height: auto;
 }
 
-.organization-display-flex {
+.header_menu_button {
   display: flex;
   align-items: center;
   justify-items: flex-end;
@@ -54,13 +54,13 @@ header {
   width: 970px;
 }
 
-.organization-display-flex div h2 {
+.header_menu_button div h2 {
   font-size: 20px;
   color: #00823c;
   font-size: 16px;
 }
 
-.organization-display-flex div #botao-conteudo-eOuve {
+.header_menu_button div #botao-conteudo-eOuve {
   text-decoration: none;
   cursor: pointer;
   outline: inherit;
@@ -72,11 +72,11 @@ header {
   padding-bottom: 5px;
 }
 
-.organization-display-flex div #botao-conteudo-eOuve:hover {
+.header_menu_button div #botao-conteudo-eOuve:hover {
   border-bottom: #00823c 1px solid;
 }
 
-.organization-display-flex div #botao-conteudo-eCrie {
+.header_menu_button div #botao-conteudo-eCrie {
   text-decoration: none;
   cursor: pointer;
   outline: inherit;
@@ -88,25 +88,25 @@ header {
   padding-bottom: 5px;
 }
 
-.organization-display-flex div #botao-conteudo-eCrie:hover {
+.header_menu_button div #botao-conteudo-eCrie:hover {
   border-bottom: #00823c 1px solid;
 }
 
-.organization-display-flex p {
+.header_menu_button p {
   margin: 0px;
   margin-right: 20px;
   color: rgb(207, 207, 207);
   font-size: 12px;
 }
 
-.header-row-center {
+.conteudo_menu_button {
   display: flex;
   width: auto;
   background-color: #ffffff;
   border-top: 2px solid #f9f9f9;
 }
 
-.background-row-center {
+.cor_de_fundo {
   padding-top: 30px;
   padding-bottom: 50px;
   width: 100%;
@@ -114,12 +114,12 @@ header {
   background-color: #f9f9f9;
 }
 
-.organization-display-flex-column {
+.posicao_conteudo_eouve_ecrie {
   width: auto;
   margin: auto auto auto 77px;
 }
 
-.Eouve {
+.logotipo_Eouve {
   width: auto;
   height: 200px;
   margin: 30px 0px 0px 60px;
@@ -128,21 +128,25 @@ header {
   justify-content: space-around;
 }
 
-.Eouve p {
+.logotipo_Eouve p {
   margin: 10px;
   padding: 10px 10px 0 0;
   color: #b4b4b4;
 }
 
-.Eouve img {
+.logotipo_Eouve img {
   margin-left: 15px;
 }
 
-.Eouve .tex {
+.logotipo_Eouve .texto_logotipo_Eouve {
   width: 320px;
 }
 
-.header-row-down {
+.imgpc {
+  width: 500px;
+}
+
+.conteudo_multiplataforma {
   margin: 85px 0px 0px 180px;
   width: auto;
   height: 150px;
@@ -181,30 +185,27 @@ main {
   margin: 200px auto auto 10px;
 }
 
-.linha {
+.cor_margin_topo {
   margin-top: 50px;
   border-top: 2px solid #f9f9f9;
   width: auto;
   height: auto;
 }
 
-.main-linha-top {
+.menu_botoes_multiplataforma {
+  padding-left: 12%;
   width: auto;
+  margin: 20px auto auto auto;
+  height: auto;
   border-bottom: #f9f9f9 2px solid;
 }
 
-.main-row-top {
-  width: auto;
-  margin: 20px auto auto 165px;
-  height: auto;
-}
-
-.main-row-top h1 {
+.menu_botoes_multiplataforma h1 {
   color: #00823c;
   margin-bottom: 20px;
 }
 
-.main-row-top button {
+.menu_botoes_multiplataforma button {
   margin: 10px 40px 0px 0px;
   text-decoration: none;
   background-color: white;
@@ -213,66 +214,62 @@ main {
   font-size: medium;
 }
 
-.main-linha {
-  border-bottom: #f9f9f9 2px solid;
-}
-
-.video-center {
+.video-treinamento {
   width: auto;
   height: auto;
   margin: 20px auto 40px 165px;
   display: flex;
 }
 
-.text-right-video {
+.texto_treinamento {
   width: auto;
-  margin: auto auto auto 30px;
+  height: auto;
+  margin: 10px auto auto 30px;
   padding-bottom: 40px;
-  width: 400px;
-  height: 430px;
+  max-width: 400px;
+  max-height: 600px;
 }
 
-.text-right-video #texto1 {
+.texto_treinamento #texto1 {
   color: #777777;
   font-weight: bold;
   padding: 20px;
 }
 
-.text-right-video #texto2 {
+.texto_treinamento #texto2 {
   color: #777777;
   font-weight: bold;
   padding: 20px;
 }
 
-.main-row-down {
+.funcionalidades_plataforma {
+  border-top: #f9f9f9 2px solid;
   padding-top: 30px;
+  padding-left: 12%;
   padding-bottom: 40px;
   background-color: #fbfbfb;
   border-bottom: #f9f9f9 2px solid;
-}
-
-.alinhamento {
-  margin: auto auto auto 165px;
+  margin: auto auto auto auto;
   display: flex;
   width: auto;
 }
 
-.grafico-pizza h1 {
+.grafico h1 {
   color: hsl(231, 59%, 51%);
   margin: auto auto 25px auto;
 }
 
-.main-row-down-right-text {
+.texto-grafico {
   width: 350px;
   margin: 30px 25% auto auto;
   box-shadow: 1px 15px 10px rgb(223, 223, 223);
 }
 
-.main-row-down-right-text p {
+.texto-grafico p {
   padding: 15px;
 }
 
-.main-row-down-right-text h1 {
+.texto-grafico h1 {
   padding-top: 20px;
   padding-left: 10px;
   color: #00823c;
@@ -283,7 +280,7 @@ footer {
   margin: 20px 5% 5% 165px;
 }
 
-.footer-row-top {
+.entidades_Eouve {
   display: flex;
 }
 
@@ -347,14 +344,14 @@ footer {
   height: 35px;
 }
 
-.footer-row-down {
+.informacoes_contatos_empresa {
   width: auto;
   height: 100px;
   background-color: rgb(0, 0, 0);
   margin: 10px auto auto auto;
 }
 
-.info {
+.posicionamento {
   display: flex;
   width: auto;
   height: auto;
@@ -441,25 +438,12 @@ footer {
   color: #ffffff;
 }
 
-.info img {
-  border-radius: 100%;
-  margin: auto auto 60px auto;
-  border-color: black 5px solid;
-}
-
-.posicao-instagram {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  margin: auto auto auto 50%;
-}
-
-.info img {
+.posicionamento .icone-instagram {
   position: absolute;
   margin-left: 80%;
   margin-top: 41px;
   background-color: azure;
+  border-radius: 100%;
 }
 
 .barraDeInformacoes {
@@ -481,6 +465,8 @@ footer {
 }
 
 .highlight-green {
+  padding-left: 5px;
+  padding-right: 5px;
   font-weight: bold;
   color: #00823c;
 }
@@ -495,16 +481,16 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 850px) {
-  .organization-display-flex {
+  .header_menu_logo {
     width: 100%;
     flex-direction: column;
   }
 
-  .organization-display-flex p {
+  .header_menu_logo p {
     display: none;
   }
 
-  .organization-display-flex div {
+  .header_menu_logo div {
     width: 100%;
     margin-bottom: 15px;
     display: flex;
@@ -512,7 +498,7 @@ footer {
     align-items: center;
   }
 
-  .organization-display-flex div button {
+  .header_menu_button div button {
     margin: 0;
   }
 
@@ -520,7 +506,7 @@ footer {
     display: none;
   }
 
-  .background-row-center {
+  .cor_de_fundo {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -528,18 +514,18 @@ footer {
     height: auto;
   }
 
-  .organization-display-flex-column {
+  .posicao_conteudo_eouve_ecrie {
     margin: 0;
     width: inherit;
   }
 
-  .Eouve {
+  .logotipo_Eouve {
     margin: 0;
     width: 100%;
     height: inherit;
   }
 
-  .tex {
+  .texto_logotipo_Eouve {
     width: inherit !important;
     display: flex;
     flex-direction: column;
@@ -559,7 +545,7 @@ footer {
     margin-bottom: 35px;
   }
 
-  .header-row-down {
+  .conteudo_multiplataforma {
     position: relative;
     margin: 0;
     display: flex;
@@ -591,25 +577,15 @@ footer {
     margin: 0;
   }
 
-  .linha {
-    border-top: 0;
-    margin-top: 0px;
-  }
-
-  .main-row-top {
+  .cor_margin_topo {
     margin: 0;
     padding: 0;
     text-align: center;
   }
 
-  .main-row-top h1 {
+  .cor_margin_topo h1 {
     font-size: 23px;
     margin-bottom: 30px;
-  }
-
-  .main-linha-top {
-    border-bottom: 0;
-    padding: 30px 40px;
   }
 
   .mobile_menu-plataforma {
@@ -625,13 +601,7 @@ footer {
     padding-bottom: 2px;
   }
 
-  .main-linha {
-    width: 100%;
-    padding: 0;
-    height: auto;
-  }
-
-  .video-center {
+  .video-treinamento {
     width: inherit;
     margin: 0;
     height: inherit;
@@ -655,7 +625,7 @@ footer {
 
   #text-right-video {
     margin: 0;
-    padding: 30px 40px;
+    padding: 30px 10px;
   }
 
   #texto1 {
@@ -669,17 +639,12 @@ footer {
     line-height: 1.3;
   }
 
-  .main-row-down {
-    padding: 30px 0;
-    border-bottom: 0;
-  }
-
-  .alinhamento {
+  .funcionalidades_plataforma {
     margin: 0;
     flex-direction: column;
   }
 
-  .grafico-pizza h1 {
+  .grafico h1 {
     font-size: 23px;
     padding: 0 40px;
     text-align: center;
@@ -697,19 +662,19 @@ footer {
     margin-top: 30px;
   }
 
-  .main-row-down-right-text {
+  .texto-grafico {
     width: 100%;
     margin: 0 0px;
   }
 
-  .main-row-down-right-text h1 {
+  .texto-grafico h1 {
     padding: 30px;
     padding-bottom: 0;
     padding-left: 20px;
     font-size: 23px;
   }
 
-  .main-row-down-right-text p {
+  .texto-grafico p {
     padding: 20px;
   }
 
@@ -719,7 +684,7 @@ footer {
     height: auto;
   }
 
-  .footer-row-top {
+  .entidades_Eouve {
     flex-direction: column;
     width: inherit;
     height: inherit;
@@ -731,12 +696,18 @@ footer {
     padding: 30px 10px;
   }
 
+  .eOuveMapa {
+    width: auto;
+    height: auto;
+    max-width: 350px;
+  }
+
   .bandeira {
     margin: 0;
   }
 
   .bandeira h1 {
-    padding: 0 40px;
+    padding: 10px 40px;
     font-size: 23px;
     text-align: center;
     display: block;
@@ -764,12 +735,12 @@ footer {
     height: 50px !important;
   }
 
-  .footer-row-down {
+  .informacoes_contatos_empresa {
     margin-top: 0;
     height: auto;
   }
 
-  .info {
+  .posicionamento {
     flex-direction: column;
     padding: 30px 40px;
     text-align: center;
@@ -791,6 +762,7 @@ footer {
     margin: 0 !important;
     width: 100%;
     justify-content: center;
+    border-radius: 0%;
   }
 
   .icone-instagram {
